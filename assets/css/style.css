@@ -1,0 +1,74 @@
+.container {
+	/*background-image: url("../images/background-blue.jpg");*/
+	/*background-image: url("../images/backgroundImg.png");*/
+	background-image: url("../images/green.png");
+	/*background-image: url("../images/webImg.jpg");*/
+	/*background-image: url("../images/website-image.jpg");*/
+	background-size: cover;
+	background-attachment: fixed;
+	z-index: 1;
+}
+#main-container {
+	text-align: center;
+}
+
+p {
+	color: #fff;
+	padding: 25px;
+	font-family: Fritz;
+	/*font-family: monospace;*/
+	font-size: 16px;
+	letter-spacing: 0.2em;
+    line-height: 200%;
+}
+
+.fa.fa-github {
+	color: #fff;
+}
+
+.fa.fa-linkedin-square {
+	color: #fff;
+}
+
+.fa.fa-pinterest-square {
+	color: #fff;
+}
+
+.name {
+	color: #fff;
+	font-family: Meticulous Ariel;
+	/*font-family: Fritz;*/
+	/*font-family: monospace;*/
+	letter-spacing: .15em;
+	font-weight: 50;
+	padding-top: 100px;
+	padding-bottom: 40px;
+	font-size: 40px;
+	white-space: nowrap;
+	margin: 0 auto;
+    overflow: hidden;
+    animation: type 3.5s steps(40, end);
+}
+
+li {
+	display: inline-block;
+	padding: 40px;
+	text-align: center;
+	color: #fff;
+}
+i {
+	padding: 20px;
+}
+li a {
+	color: #fff;
+}
+
+li a:hover {
+	color: #dfd12b;
+}
+
+.footer {
+	text-align: right;
+	padding: 10px;
+	color: #fff;
+}
